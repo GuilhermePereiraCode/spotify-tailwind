@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .div-vantagens {
+        @apply flex items-center w-full max-w-[405px] my-7 lg:flex-col lg:text-center;
+    }
+    .div-bg-img{
+        @apply bg-center bg-contain bg-no-repeat w-full max-w-[148px] pt-[100%] mb-6;
+    }
+    .h2-vantagens{
+        @apply mb-3 font-bold text-lg lg:text-xl ;
+    }
+}
